@@ -41,6 +41,8 @@ nav{
   width: 150px;
   clip-path: circle();
   margin-left: -125px;
+  max-width: 100%;
+  height: auto;
 }
 
 nav ul li{
@@ -212,7 +214,7 @@ margin: 10px 0;
   transform: translateY(-10px);
 }
 
-/* ---------------------- portfolio -------------------- */
+/* ---------------------- My Work -------------------- */
 
 #portfolio{
   padding: 50px 0;
