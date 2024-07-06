@@ -17,9 +17,10 @@ body{
 #header{
   width: 100%;
   height: 100vh;
-  background-image: url(images/background.png);
+  background-image: url(images/basith.png);
   background-size: cover;
-  background-position: center;
+  background-position: 90% center;
+
 }
 
 #sidemenu{
@@ -115,6 +116,10 @@ nav ul li a:hover::after{
 
 .text{
   font-size: 20px;
+}
+
+.textd{
+  font-size: 15px;
 }
 
 .sub-title{
@@ -240,6 +245,15 @@ margin: 10px 0;
   display: block;
   transition: transform 0.5s;
 }
+
+#to-do-list-react{
+    background-color: white;
+}
+
+#to-do-list-react2{
+  background-image: url('images/black.png');
+}
+
 .layer{
   width: 100%;
   height: 0;
