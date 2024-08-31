@@ -406,7 +406,6 @@ nav .fas{
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/phone-background.png);
-    background-position: left;
   }
 
     .header-text{
