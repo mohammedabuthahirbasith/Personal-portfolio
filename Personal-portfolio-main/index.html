@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8c437e0e2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo1.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">My Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Mohammed<br>Abuthahir Basith</span> From India</h1>
+      </div>
+    </div>
+  </div>
+<!------------about----------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Professional Photo 2.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p class="text">Hi, I'm Mohammed Abuthahir Basith. I just completed my Bachelor's in Electronics and Communication Engineering at Nandha Engineering College.
+
+            Although my journey started in the field of electronics, my true passion has always been coding. I discovered my love for coding during my Higher Secondary Certificate (HSC) years. Unfortunately, I took a different path with ECE. However, in my fourth year of college, I reignited my passion and started learning coding again.
+            
+            </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li class="textd"><span>C Language</span><br>Skilled in writing efficient C programs, with a solid understanding of pointers, memory management, and data structures, and experience in developing low-level system applications.
+              </li>
+              <li class="textd"><span>Java</span><br>Proficient in basic Java, object-oriented programming, and multithreading, with foundational knowledge of Spring Boot for developing simple web applications.
+              </li>
+              <li class="textd"><span>HTML</span><br>Proficient in crafting well-structured, semantic HTML for creating accessible and SEO-friendly web pages, with experience in integrating multimedia and form elements.</li>
+              <li class="textd"><span>CSS</span><br>Experienced in designing visually appealing and responsive web pages using CSS, with strong skills in layout techniques, animations.</li>
+              <li class="textd"><span>JavaScript</span><br>Proficient in JavaScript for developing dynamic and interactive web applications, with expertise in ES6+, DOM manipulation, and frameworks like React and Node.js.
+              </li>
+              <li class="textd"><span>Angular</span><br>Skilled in building scalable and maintainable single-page applications using Angular, with strong expertise in components, services, and reactive programming with RxJS.
+              </li>
+              <li class="textd"><span>React</span><br>Experienced in developing dynamic and high-performance web applications using React, with strong skills in hooks, state management with Redux, and component-based architecture.
+              </li>
+              <li class="textd"><span>MySql</span><br>Proficient in MySQL database design and management, with strong skills in writing complex queries, optimizing performance, and ensuring data integrity through normalization.
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2024<b>July</b> - 2024 <b>October</b></span><br>Intern Trainee at Vaken Technologies</li>
+                <li><span>2024<b>October</b> - <b>Current</b></span><br>Trainee Engineer at Vaken Technologies</li>
+            </ul>
+        </div>
+        
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2020 - 2024</span><br>B.E ECE From Nandha Engineering College, Erode, TamilNadu</li>
+              <li><span>2019-2020</span><br>Studied HSC in Sengundhar Higher Secondary School, Erode, TamilNadu </li>
+              <li><span>2018</span><br>Studied SSLC in Sengundhar Higher Secondary School, Erode, TamilNadu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+<!---- -------------------- My Work ----------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work" id="to-do-list-react2">
+        <img src="images/download.png">
+        <div class="layer">
+          <h3>Code Pen</h3>
+          <p>Built a CodePen-like online compiler for HTML, CSS & JavaScript in React.  It allows users to write and see the rendered code simultaneously, fostering a collaborative learning environment.</p>
+          <a href="https://mohammedabuthahirbasith.github.io/codepen-react/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work" id="to-do-list-react">
+        <img src="images/todolist.png">
+        <div class="layer">
+          <h3>To-Do List</h3>
+          <p>Boost your productivity with this to-do list app! Easily add daily activities, mark completed tasks with a satisfying strikethrough, and delete unwanted items for a clutter-free list that keeps you focused.</p>
+          <a href="https://mohammedabuthahirbasith.github.io/to-do-list-react/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world. Downlode it from the store.</p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------------------------Contact-------------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>7810016907</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/basith_offl_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/mohammedabuthahirbasith786" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/mohammedabuthahirbasith" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://discord.com/channels/@mohammedabuthahirbasith" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Downlode CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; Basith <i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+  
+
+
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    } I
+  </script>
+   
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwUSGyXLbGXdh46bP2yalUxvcM-jdAFKsqFkE9MhWwraXqakoSByjGgfES4RPoIW09R/exec'
+
+    const form = document.forms['submit-to-google-sheet']
+    
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
